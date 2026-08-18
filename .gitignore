@@ -1,0 +1,16 @@
+﻿.git/
+node_modules/
+superset-frontend/node_modules/
+superset-frontend/.swc/
+superset-frontend/.nx/
+__pycache__/
+*.pyc
+.env
+*.log
+*.parquet
+*.tar
+*.zip
+superset_backup.sql
+superset/static/assets/
+superset-frontend/build/
+superset-frontend/dist/
