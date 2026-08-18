@@ -201,7 +201,7 @@ fastmcp = [
 # Python >=3.8 (which covers Superset's >=3.11 floor), with no dual-compat
 # release. Capped below 2.0.0 for now; bump to >=2.2.0 in lockstep with
 # Superset's own SQLAlchemy 2.0 core bump (discussion #40273), not before.
-firebird = ["sqlalchemy-firebird>=0.8.0, <2.0.0"]
+firebird = ["sqlalchemy-firebird>=2.2.0, <3.0.0"]
 firebolt = ["firebolt-sqlalchemy>=1.1.2, <2"]
 gevent = ["gevent>=26.7.0"]
 gsheets = ["shillelagh[gsheetsapi]>=1.4.5, <2"]
